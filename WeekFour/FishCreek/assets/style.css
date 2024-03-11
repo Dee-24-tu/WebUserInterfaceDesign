@@ -13,6 +13,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.0rem;
     margin: auto;
+    overflow: visible;
 }
 
 h1{
@@ -59,17 +60,27 @@ nav a:last-child{
     border-radius: 0.2rem;
 }
 
-dl{
-    padding: 2rem;
+dl, p{
+    padding: 1rem;
 }
 
 dt{
     padding: 1rem;
 }
 
+p a{
+    font-size: inherit;
+    padding: 0rem 0rem 0rem 1.2rem;
+}
+
+p span{
+    padding-left: 1.2rem;
+}
+
 footer{
     background-color: #fe8c43ff;
     text-align: end;
+    font-size: 0.8rem;
     position: fixed;
     left: 0;
     bottom: 0;
