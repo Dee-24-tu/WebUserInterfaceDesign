@@ -1,4 +1,7 @@
-/* CSS HEX 
+/*********************
+CSS HEX
+*********************
+
 --bittersweet: #fd5963ff; MENU
 --amber: #ffbf24ff; NAV BACKGROUND
 --tomato: #fe7353ff;
@@ -6,7 +9,12 @@
 --atomic-tangerine: #fe8c43ff;  BACKGROUND COLOR
 --night: #080c0bff; FONT COLOR
 --white: #ffffffff; FONT COLOR
-*/
+
+**********************/
+
+/*********************
+GLOBAL STYLING
+*********************/
 
 body{
     background-color: rgb(255, 234, 220);
@@ -60,6 +68,10 @@ nav a:last-child{
     border-radius: 0.2rem;
 }
 
+/*********************
+MAIN PAGE STYLING
+*********************/
+
 dl, p{
     padding: 1rem;
 }
@@ -88,7 +100,6 @@ footer{
 }
 
 
-
 a:hover{
     color:rgb(0, 128, 11);
 }
@@ -98,5 +109,56 @@ a:visited{
 }
 
 
+/*********************
+SERVICE PAGE STYLING
+*********************/
+ul{
+    padding: 3rem;
+}
 
+li{
+    padding: 0.3rem;
+}
 
+/*********************
+CONTACT PAGE STYLING
+*********************/
+form{
+    font-size: 1.2rem;
+    padding: 3rem;
+}
+
+fieldset{
+    border: 0.2rem solid #fe8c43ff;
+    border-radius: 0.5rem;
+    display: inline-block;
+}
+
+label, input, textarea{
+    display: block;
+    border-radius: 0.2rem;
+    padding: 0.2rem;
+    margin: 0.2rem;
+}
+
+input, textarea{
+    border: 0.1rem solid #fd5963ff;
+    width: 28rem;
+    height: 1.8rem;
+}
+
+.buttons{
+    float: inline-start;
+    text-align: center;
+    background-color: #fe8c43ff;
+    border: 0.2rem solid #fd5963ff;
+    border-radius: 0.3rem;
+    margin: 0.5rem;
+    width: 5rem;
+}
+
+.buttons:hover{
+    background-color: #fd5963ff;
+    border: 0.2rem solid #fe7353;
+    color: #fff;
+}
