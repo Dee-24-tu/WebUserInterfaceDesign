@@ -27,33 +27,26 @@
                 <a class="menu" href="contact.html">Contact</a>
             </nav>
         </header>
+        
+        <form id="feedback-frm" method="post">
+            <fieldset>
+                <legend>Tell us what you think</legend>
+                <label for="fname">Name:</label><br>
+                    <input type="text" id="fname" name="fname" placeholder="James" autofocus><br>
+                <label for="lname">Last Name:</label><br>
+                    <input type="text" id="lname" name="lname" placeholder="Smith"><br>
+                <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" size="30" placeholder="email@example.ie" required><br>
+                <label for="msghead">Message:</label><br>
+                    <input type="text" id="msghead" name="msghead" placeholder="Dog is sick."><br>
+                <textarea name="feedback" row="25" cols="30" maxlength="500" placeholder="Tell us how your dog got sick"></textarea><br>
+                <input type="button" formmethod="post" onclick="alert('Thank you for your feedback.')" value="Submit">
+                <input type="reset" vlaue="Reset">
+            </fieldset>
+            
+        </form>
 
-        <ul class="square-index">
-            <li class="service-indent">
-                Medical Services
-            </li>
-            <li style="display: list-item; list-style-type: none; font-weight: lighter;">
-                We offer state of the art equipment & technology
-            </li>
-            <li class="service-indent">
-                Surgical Services
-            </li>
-            <li style="display: list-item; list-style-type: none; font-weight: lighter;">
-                Full range of surgical procedures
-            </li>
-            <li class="service-indent">
-                Dental Care
-            </li>
-            <li style="display: list-item; list-style-type: none;font-weight: lighter;">
-                A dental exam can determine whether your pet needs preventatives dental care such as scaling and polishing.
-            </li>
-            <li class="service-indent">
-                House Calls
-            </li>
-            <li style="display: list-item; list-style-type: none; font-weight: lighter;">
-                The elderly, physically challenged, and multiple pet households often find our in-home veterinary service helpful and convenient.
-            </li>
-        </ul>
+        
 
         <footer>
             <p><i>Copyright &#169; 2013 Fish Creek Animal Hospital</i><br>
