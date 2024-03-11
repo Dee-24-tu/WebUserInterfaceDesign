@@ -10,19 +10,14 @@
 
 body{
     background-color: rgb(255, 234, 220);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.0rem;
     margin: auto;
-}
-
-header{
-    background-color: #fe8c43ff;
-    padding: 0.5rem;
-    padding-bottom: 0rem;
 }
 
 h1{
     background-color: #8686feff;
     color: #fff;
-    font-family: Arial, Helvetica, sans-serif;
     margin: auto;
     padding: 0.3rem;
     padding-bottom: 0rem;
@@ -58,18 +53,27 @@ nav a:last-child{
     border-right: none;
 }
 
-
 .menu:hover{
     background-color: #fd5963ff;
     color: #fff;
     border-radius: 0.2rem;
 }
 
+dl{
+    padding: 2rem;
+}
 
+dt{
+    padding: 1rem;
+}
 
 footer{
-    background-color: ;
+    background-color: #fe8c43ff;
     text-align: end;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 
 
