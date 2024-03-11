@@ -1,32 +1,91 @@
-body{
-    background-color: pink;
-}
+/* CSS HEX 
+--bittersweet: #fd5963ff; MENU
+--amber: #ffbf24ff; NAV BACKGROUND
+--tomato: #fe7353ff;
+--tropical-indigo: #8686feff; HEADING
+--atomic-tangerine: #fe8c43ff;  BACKGROUND COLOR
+--night: #080c0bff; FONT COLOR
+--white: #ffffffff; FONT COLOR
+*/
 
-h1, nav{
-    text-align: center;
+body{
+    background-color: rgb(255, 234, 220);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.0rem;
+    margin: auto;
 }
 
 h1{
-    background-color: blue;
-    color: white;
-    font-family: sans-serif, Arial, Helvetica, sans-serif;
+    background-color: #8686feff;
+    color: #fff;
+    margin: auto;
+    padding: 0.3rem;
+    padding-bottom: 0rem;
+}
+
+h1{
+    text-align: center;
 }
 
 nav{
-    background-color: yellow;
-    border: 4px solid black;
+    background-color: #ffbf24ff;
+    text-align: center;
 }
 
-footer{
-    background-color: white;
-    text-align: end;
+.menu{
+    display: inline-block;
 }
 
 a{
-    color: black;
-
+    display: block;
+    cursor: pointer;
+    color: #080c0bff;
+    text-decoration: none;
+    font-size: 1.3rem;
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
 }
 
-nav a:hover{
-    color: red;
+nav a{
+    border-right: 0.2rem solid #fd5963ff;
 }
+
+nav a:last-child{
+    border-right: none;
+}
+
+.menu:hover{
+    background-color: #fd5963ff;
+    color: #fff;
+    border-radius: 0.2rem;
+}
+
+dl{
+    padding: 2rem;
+}
+
+dt{
+    padding: 1rem;
+}
+
+footer{
+    background-color: #fe8c43ff;
+    text-align: end;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+a:hover{
+    color:rgb(0, 128, 11);
+}
+
+a:visited{
+    color: rgb(44, 1, 44);
+}
+
+
+
+
