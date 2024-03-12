@@ -140,8 +140,10 @@ CONTACT PAGE STYLING
 }
 
 form{
+    float: left;
     font-size: 1.2rem;
     padding: 3rem;
+    margin: 25rem;
 }
 
 fieldset{
