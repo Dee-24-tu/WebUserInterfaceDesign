@@ -51,7 +51,7 @@ a{
     color: #080c0bff;
     text-decoration: none;
     font-size: 1.3rem;
-    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem; 
 }
 
 nav a{
@@ -81,6 +81,8 @@ dl, p{
 }
 
 dt{
+    font-weight: bold; 
+    text-decoration: underline;
     padding: 1rem;
 }
 
@@ -108,17 +110,35 @@ footer{
 /*********************
 SERVICE PAGE STYLING
 *********************/
+.square-index{
+    display: list-item;
+    list-style-type: square;
+    font-weight: bold;
+    }
+
 ul{
     padding: 3rem;
 }
 
-li{
+li{ 
+
+    
+    
     padding: 0.3rem;
+}
+
+.service-indent{
+    list-style-type: none; 
+    font-weight: lighter;
 }
 
 /*********************
 CONTACT PAGE STYLING
 *********************/
+.page-color{
+    background-color: rgb(255, 218, 131);
+}
+
 form{
     font-size: 1.2rem;
     padding: 3rem;
